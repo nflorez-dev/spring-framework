@@ -8,6 +8,6 @@ public class UserManager {
     }
 
     public String getUserInfo() {
-        return userDataProvider.getUserDetails(userManagerWithDB.getUserInfo());
+        return userDataProvider.getUserDetails();
     }
 }
